@@ -160,4 +160,26 @@
     border-radius: 50% !important;
 }
 
-
+@media screen and (max-width: 991px) {
+   .product-wrap .product-img > span {
+        display: inline-block;
+        color: #fff;
+        position: absolute;
+        letter-spacing: 1.1px;
+        line-height: 1;
+        z-index: 1;
+        padding: 7px 4px 8px;
+    }
+    .product-wrap .product-img > span.badge-top-20 {
+        top: 4px;
+    }
+    .product-wrap .product-img > span.badge-right-20 {
+        right: 5px;
+    }
+    
+}
+ @media screen and (max-width: 991px)  {
+    .view-collection {
+        width:150px !important;
+    }
+}
